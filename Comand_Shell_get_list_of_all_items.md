@@ -1,0 +1,1 @@
+Get-ChildItem -Path "C:\Users\mocarprz\Mars Inc\Sales Systems - One BI\Source Files\BACKUP PowerBI\Datalake\DNA\TREX" -Recurse | Select-Object -ExpandProperty FullName | Out-File "C:\Users\mocarprz\struktura.txt"
